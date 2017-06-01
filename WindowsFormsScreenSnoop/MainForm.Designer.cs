@@ -28,36 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.PictureBoxSnoop = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxSnoop)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // PictureBoxSnoop
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(628, 305);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.PictureBoxSnoop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PictureBoxSnoop.Location = new System.Drawing.Point(0, 0);
+            this.PictureBoxSnoop.Name = "PictureBoxSnoop";
+            this.PictureBoxSnoop.Size = new System.Drawing.Size(938, 485);
+            this.PictureBoxSnoop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBoxSnoop.TabIndex = 0;
+            this.PictureBoxSnoop.TabStop = false;
+            this.PictureBoxSnoop.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1003, 623);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(938, 485);
+            this.Controls.Add(this.PictureBoxSnoop);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxSnoop)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PictureBoxSnoop;
     }
 }
 
