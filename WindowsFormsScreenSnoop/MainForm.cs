@@ -44,7 +44,11 @@ namespace WindowsFormsScreenSnoop
                         {
                             MethodInvoker mi = delegate () {
                                 Image image = (Image)formatter.Deserialize(stream);
-                                image = ResizeImage(image, PictureBoxSnoop.Width, PictureBoxSnoop.Height);
+                                if(PictureBoxSnoop.Width != 0 && PictureBoxSnoop.Height !=0)
+                                {
+                                    image = ResizeImage(image, PictureBoxSnoop.Width, PictureBoxSnoop.Height);
+                                }
+                         
                                 PictureBoxSnoop.Image = image;
                                 /*
                                 PictureBoxSnoop.Height = image.Height;

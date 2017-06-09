@@ -37,7 +37,7 @@
             this.PictureBoxSnoop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PictureBoxSnoop.Location = new System.Drawing.Point(0, 0);
             this.PictureBoxSnoop.Name = "PictureBoxSnoop";
-            this.PictureBoxSnoop.Size = new System.Drawing.Size(938, 485);
+            this.PictureBoxSnoop.Size = new System.Drawing.Size(1898, 1025);
             this.PictureBoxSnoop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxSnoop.TabIndex = 0;
             this.PictureBoxSnoop.TabStop = false;
@@ -47,7 +47,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(938, 485);
+            this.ClientSize = new System.Drawing.Size(1898, 1025);
             this.Controls.Add(this.PictureBoxSnoop);
             this.Name = "MainForm";
             this.Text = "MainForm";
